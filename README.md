@@ -64,3 +64,24 @@ Mai jos se pot observa rutele de GET și POST care permit afișarea unui istoric
     });
   
 Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b>getWordDef</b>, ce returnează un obiect JSON:
+  async function getWordDef(word){
+    try {
+        let response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
+        let wordMeanings = [];
+        let wordPartsOfSpeech = [];
+        let meaningsLength = response.data[0].meanings.length;
+        for (let i=0; i<meaningsLength; i++) {
+            wordMeanings.push(response.data[0].meanings[i].definitions[0].definition)
+            wordPartsOfSpeech.push(response.data[0].meanings[i].partOfSpeech)
+        }
+        let phonetics = response.data[0].phonetics[1].text;
+
+        return {
+            _wordMeanings: wordMeanings,
+            _wordPartsOfSpeech: wordPartsOfSpeech,
+            _wordPhonetics: phonetics
+        }
+    } catch (err) {
+        console.warn(err)
+    }
+  }
