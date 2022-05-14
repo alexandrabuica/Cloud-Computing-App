@@ -1,8 +1,12 @@
 # PROIECT Cloud Computing
 
-## Buică Elena-Alexandra, grupa 1117, SIMPRE, an I<br />
 
-## Link aplicatie: https://young-depths-04473.herokuapp.com/ </h4>
+### Buică Elena-Alexandra, grupa 1117, SIMPRE, an I<br />
+
+### Link video prezentare proiect: 
+
+
+## Link aplicatie: https://young-depths-04473.herokuapp.com/ 
 
 <br />
 
