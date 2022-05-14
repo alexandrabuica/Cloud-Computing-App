@@ -6,7 +6,7 @@
 ### Link video prezentare proiect: 
 
 
-## Link aplicatie: https://young-depths-04473.herokuapp.com/ 
+## Link aplicație: https://young-depths-04473.herokuapp.com/ 
 
 <br />
 
