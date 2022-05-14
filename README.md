@@ -1,5 +1,4 @@
-# PROIECT-CC
-
+# PROIECT Cloud Computing
 <b><u>Introducere și descrierea problemei</u></b>
 
 Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar, utilizatorul având posibilitatea de căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
