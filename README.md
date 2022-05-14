@@ -1,4 +1,10 @@
 # PROIECT Cloud Computing
+
+<h4>Buică Elena-Alexandra, grupa 1117, SIMPRE, an I</h4>
+
+<h4>Link aplicatie: https://young-depths-04473.herokuapp.com/ </h4>
+
+
 <b><u>Introducere și descrierea problemei</u></b>
 
 Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
