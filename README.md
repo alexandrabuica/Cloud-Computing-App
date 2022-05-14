@@ -108,7 +108,7 @@ Tabelele și câmpurile din baza de date:
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture4.PNG)
 
 ### Referințe
-https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-1/set-up-back-end-local
-https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-3/construire-stilizare-front-end
-https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-3/deploy-heroku
+- https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-1/set-up-back-end-local
+- https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-3/construire-stilizare-front-end
+- https://gurita-alexandru.gitbook.io/cloud-computing-2022-simpre/seminar-3/deploy-heroku
 
