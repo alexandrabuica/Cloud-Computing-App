@@ -100,3 +100,8 @@ Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b
                                             
 Similar, am implementat metode de GET și POST pentru a stoca și regăsi cuvinte în tabela words din baza de date.
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture2.PNG)
+
+
+Tabelele și câmpurile din baza de date:
+![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture3.PNG) 
+![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture4.PNG)
