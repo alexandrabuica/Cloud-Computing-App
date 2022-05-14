@@ -6,7 +6,7 @@ Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și Re
 Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele căutate anterior în dicționar, o secțiune de căutare implementată ca un formular și o listă care prezintă informațiile returnate de API-ul dicționar pentru cuvintele căutate.
 În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont de platforma SendGrid).
 
-
+![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture1.PNG)
 <b><u>API</u></b>
 
 API-ul folosit pentru a implementa funcționalitățile de back-end ale aplicației este unul gratis, disponibil online la următorul link: https://dictionaryapi.dev/ .
@@ -88,3 +88,4 @@ Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b
 
                                             
 Similar, am implementat metode de GET și POST pentru a stoca și regăsi cuvinte în tabela words din baza de date.
+![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture2.PNG)
