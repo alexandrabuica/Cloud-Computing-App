@@ -86,3 +86,6 @@ Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b
             console.warn(err)
         }
     }
+
+                                            
+Similar, am implementat metode de GET și POST pentru a stoca și regăsi cuvinte în tabela words din baza de date.
