@@ -3,7 +3,7 @@
 
 ### Buică Elena-Alexandra, grupa 1117, SIMPRE, an I<br />
 
-### Link video prezentare proiect: 
+### Link video prezentare proiect: https://www.youtube.com/watch?v=JBY3SfJJHZ0
 
 
 ## Link aplicație: https://young-depths-04473.herokuapp.com/ 
@@ -12,9 +12,12 @@
 
 ### Introducere și descrierea problemei
 
-Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar în limba engleză, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
+Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud Platform) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar în limba engleză, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
 
 Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele căutate anterior în dicționar, o secțiune de căutare implementată ca un formular și o listă care prezintă informațiile returnate de API-ul dicționar pentru cuvintele căutate.
+
+La apăsarea butonului Search apare o alertă prin care utilizatorul este anunțat că dicționarul a returnat cu succes detalii despre cuvânt (definiție, parte de vorbire, fonetica) sau că nu s-a putut returna nicio informație. (după caz)
+
 În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont de platforma SendGrid).
 
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture1.PNG)
