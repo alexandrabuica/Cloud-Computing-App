@@ -100,10 +100,11 @@ Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b
 
                                             
 Similar, am implementat metode de GET și POST pentru a stoca și regăsi cuvinte în tabela words din baza de date.
+
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture2.PNG)
 
 
-În urma implementării metodei GET folosind API-ul de dicționar - URL-ul de back-end rezultat din deploy pe Heroku, cuvântul căutat (i.e. "bird") - putem observa răspunsul (obiect de tip JSON) primit:
+În urma implementării metodei GET folosind API-ul de dicționar - URL-ul de back-end rezultat din deploy pe Heroku + cuvântul căutat (i.e. "bird") - putem observa răspunsul (obiect de tip JSON) primit:
 
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture5.PNG)
 
