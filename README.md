@@ -12,7 +12,7 @@
 
 ### Introducere și descrierea problemei
 
-Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
+Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar în limba engleză, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
 
 Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele căutate anterior în dicționar, o secțiune de căutare implementată ca un formular și o listă care prezintă informațiile returnate de API-ul dicționar pentru cuvintele căutate.
 În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont de platforma SendGrid).
@@ -102,6 +102,10 @@ Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b
 Similar, am implementat metode de GET și POST pentru a stoca și regăsi cuvinte în tabela words din baza de date.
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture2.PNG)
 
+
+În urma implementării metodei GET folosind API-ul de dicționar - URL-ul de back-end rezultat din deploy pe Heroku, cuvântul căutat (i.e. "bird") - putem observa răspunsul (obiect de tip JSON) primit:
+
+![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture5.PNG)
 
 Tabelele și câmpurile din baza de date:
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture3.PNG) 
