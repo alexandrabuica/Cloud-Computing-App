@@ -18,6 +18,7 @@ API-ul returnează un obiect complex de tip JSON, din care am extras câteva pro
   
   
 <b>Flux de date</b>
+  
 Am creat în acest sens rute de GET, POST, PUT, DELETE care asigură comunicarea dintre back-end si baza de date.
 Baza de date este o instanță de tip SQL în cadrul Google Cloud și conține două tabele: tabela searches (în care se stochează numele user-ului, mail-ul și cuvântul căutat de acesta) și tabela words (în care se stochează cuvintele, definițiile, părțile de vorbire și fonetica obținute ca răspuns de la API).
 
