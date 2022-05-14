@@ -39,28 +39,28 @@ Mai jos se pot observa rutele de GET și POST care permit afișarea unui istoric
     });
 
     router.post("/", (req, res) => {
-        const {
-            userName,
-            userMail,
-            wordSearch
-        } = req.body;
+          const {
+              userName,
+              userMail,
+              wordSearch
+          } = req.body;
 
-        if (!userName || !userMail || !wordSearch) {
-            return res.status(400).json({
-                error: "All fields are required",
-            })
-        }
-
-      connection.query(`INSERT INTO searches (userName, userMail, wordSearch) values (${mysql.escape(userName)}, ${mysql.escape(userMail)}, ${mysql.escape(wordSearch)})`, (err, results) => {
-          if (err) {
-              console.log(err);
-              return res.send(err);
+          if (!userName || !userMail || !wordSearch) {
+              return res.status(400).json({
+                  error: "All fields are required",
+              })
           }
 
-          return res.json({
-              results,
-          })
-      })
-  });
+        connection.query(`INSERT INTO searches (userName, userMail, wordSearch) values (${mysql.escape(userName)}, ${mysql.escape(userMail)}, ${mysql.escape(wordSearch)})`, (err, results) => {
+            if (err) {
+                console.log(err);
+                return res.send(err);
+            }
+
+            return res.json({
+                results,
+            })
+        })
+    });
   
 Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b>getWordDef</b>, ce returnează un obiect JSON:
