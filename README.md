@@ -21,9 +21,10 @@ Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele c
 
 ### API
 
-API-ul folosit pentru a implementa funcționalitățile de back-end ale aplicației este unul gratis, disponibil online la următorul link: https://dictionaryapi.dev/ .
-<br />API-ul are următoarea sintaxă:
-"https://api.dictionaryapi.dev/api/v2/entries/en/WORD
+API-ul folosit pentru a implementa funcționalitățile de back-end ale aplicației este unul gratis, disponibil online la următorul link: https://dictionaryapi.dev/.
+<br />
+API-ul are următoarea sintaxă:
+https://api.dictionaryapi.dev/api/v2/entries/en/WORD
 unde WORD substituie cuvântul pe care utilizatorul dorește să îl caute în dicționar.
 API-ul returnează un obiect complex de tip JSON, din care am extras câteva proprietăți: definiția, partea de vorbire și fonetica.
   
