@@ -21,7 +21,7 @@ function DisplayDef() {
   return (
     <div id="defsDef">
       <div className="text-2xl font-bold mb-4">Words definition summary</div>
-      <ul className="-mb-8 max-h-96 overflow-auto">
+      <ul className="-mb-8 max-h-96">
         {defs.length ? (
           defs.map((def, defIdx) => (
             <li key={defs.entryID}>

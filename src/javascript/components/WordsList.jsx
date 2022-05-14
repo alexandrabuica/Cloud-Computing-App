@@ -21,7 +21,7 @@ function WordsList() {
   return (
     <div id="WordsList">
       <div className="text-2xl font-bold mb-4">Latest searches</div>
-      <ul className="-mb-8 max-h-96 overflow-auto">
+      <ul className="-mb-8 max-h-64 overflow-y-auto">
         {words.length ? (
           words.map((word, wordIdx) => (
             <li key={words.entryID}>

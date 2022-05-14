@@ -70,7 +70,7 @@ function WordsSubmit() {
 
   return (
     <div id="WordsSubmit">
-      <div className="text-2xl font-bold mb-4">Get definition</div>
+      <div className="text-2xl font-bold mb-4  max-h-64 overflow-y-auto">Get definition</div>
       <form className="w-full max-w-lg">
         <div className="flex flex-wrap -mx-3 mb-6">
           <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">

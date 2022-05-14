@@ -16,8 +16,8 @@ function MainPage(props) {
           <WordsSubmit />
         </div>
       </div>
-      <div className="flex max-w-5xl max-h-full m-auto px-4 py-4 justify-center overflow-auto max-h-64">
-        <div className=" w-auto ">
+      <div className="flex max-w-5xl m-auto px-4 py-4 justify-center max-h-64 overflow-y-auto">
+        <div>
           <DisplayDef />
         </div>
       </div>
