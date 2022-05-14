@@ -25,31 +25,31 @@ Baza de date este o instanță de tip SQL în cadrul Google Cloud și conține d
 Mai jos se pot observa rutele de GET și POST care permit afișarea unui istoric al căutărilor utilizatorilor în aplicație.<br>
 
   
-  router.get('/', (req, res) => {
-    connection.query("SELECT * FROM searches", (err, results) => {
-        if (err) {
-            console.log(err);
-            return res.send(err);
-        }
+    router.get('/', (req, res) => {
+      connection.query("SELECT * FROM searches", (err, results) => {
+          if (err) {
+              console.log(err);
+              return res.send(err);
+          }
 
-        return res.json({
-            searches: results,
-        })
-    })
-});
+          return res.json({
+              searches: results,
+          })
+      })
+  });
 
-router.post("/", (req, res) => {
-    const {
-        userName,
-        userMail,
-        wordSearch
-    } = req.body;
+  router.post("/", (req, res) => {
+      const {
+          userName,
+          userMail,
+          wordSearch
+      } = req.body;
 
-    if (!userName || !userMail || !wordSearch) {
-        return res.status(400).json({
-            error: "All fields are required",
-        })
-    }
+      if (!userName || !userMail || !wordSearch) {
+          return res.status(400).json({
+              error: "All fields are required",
+          })
+      }
 
     connection.query(`INSERT INTO searches (userName, userMail, wordSearch) values (${mysql.escape(userName)}, ${mysql.escape(userMail)}, ${mysql.escape(wordSearch)})`, (err, results) => {
         if (err) {
