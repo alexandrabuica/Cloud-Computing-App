@@ -64,6 +64,7 @@ Mai jos se pot observa rutele de GET și POST care permit afișarea unui istoric
     });
   
 Pentru a obține datele necesare de la API-ul folosit am implementat funcția <b>getWordDef</b>, ce returnează un obiect JSON:
+  
   async function getWordDef(word){
     try {
         let response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
