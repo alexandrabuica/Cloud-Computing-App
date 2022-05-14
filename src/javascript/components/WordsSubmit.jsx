@@ -10,7 +10,7 @@ function WordsSubmit() {
     let word = wordSearch;
 
     function insertWordIntoDB(word, definition, partOfSpeech, phonetics) {
-      axios.post(`http://localhost:8080/dictionary`, {
+      axios.post(`${REACT_APP_API_URL}/dictionary`, {
         word,
         definition,
         partOfSpeech,
@@ -20,7 +20,7 @@ function WordsSubmit() {
 
     try {
       let result = await axios.get(
-        `http://localhost:8080/dictionary/${wordSearch}`
+        `${REACT_APP_API_URL}/dictionary/${wordSearch}`
       );
 
       let definition = "";
@@ -61,7 +61,7 @@ function WordsSubmit() {
     }
 
     try {
-      let response = await axios.post(`http://localhost:8080/searches`, {
+      let response = await axios.post(`${REACT_APP_API_URL}/searches`, {
         userName,
         userMail,
         wordSearch,
