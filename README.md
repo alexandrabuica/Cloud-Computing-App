@@ -10,7 +10,7 @@
 
 <br />
 
-<b><u>Introducere și descrierea problemei</u></b>
+### Introducere și descrierea problemei
 
 Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
 
@@ -18,7 +18,8 @@ Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele c
 În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont de platforma SendGrid).
 
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture1.PNG)
-<b><u>API</u></b>
+
+### API
 
 API-ul folosit pentru a implementa funcționalitățile de back-end ale aplicației este unul gratis, disponibil online la următorul link: https://dictionaryapi.dev/ .
 <br />API-ul are următoarea sintaxă:
@@ -27,7 +28,7 @@ unde WORD substituie cuvântul pe care utilizatorul dorește să îl caute în d
 API-ul returnează un obiect complex de tip JSON, din care am extras câteva proprietăți: definiția, partea de vorbire și fonetica.
   
   
-<b><u>Flux de date</u></b>
+### Flux de date
   
 Am creat în acest sens rute de GET, POST, PUT, DELETE care asigură comunicarea dintre back-end si baza de date.
 Baza de date este o instanță de tip SQL în cadrul Google Cloud și conține două tabele: tabela searches (în care se stochează numele user-ului, mail-ul și cuvântul căutat de acesta) și tabela words (în care se stochează cuvintele, definițiile, părțile de vorbire și fonetica obținute ca răspuns de la API).
