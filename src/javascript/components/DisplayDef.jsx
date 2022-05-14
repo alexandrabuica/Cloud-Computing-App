@@ -6,7 +6,7 @@ function DisplayDef() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios.get(`${REACT_APP_API_URL}/dictionary`);
+      const result = await axios.get(`${process.env.REACT_APP_API_URL}/dictionary`);
       
       if (result.data.words) {
         let wordsArray = result.data.words;

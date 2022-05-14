@@ -6,7 +6,7 @@ function WordsList() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const result = await axios.get(`${REACT_APP_API_URL}/searches`);
+      const result = await axios.get(`${process.env.REACT_APP_API_URL}/searches`);
 
       if (result.data.searches) {
         let searchesArray = result.data.searches;
