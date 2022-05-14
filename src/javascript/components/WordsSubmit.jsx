@@ -35,18 +35,14 @@ function WordsSubmit() {
         word = wordSearch;
 
         for (let i = 0; i < result.data._wordMeanings.length; i++) {
-          definition += result.data._wordMeanings[i] + " ";
+          definition += result.data._wordMeanings[i] + "; ";
         }
 
         for (let i = 0; i < result.data._wordPartsOfSpeech.length; i++) {
-          partOfSpeech += result.data._wordPartsOfSpeech[i] + " ";
+          partOfSpeech += result.data._wordPartsOfSpeech[i] + "; ";
         }
 
         phonetics = result.data._wordPhonetics;
-
-        console.log(
-          word + " - " + definition + " - " + partOfSpeech + " - " + phonetics
-        );
 
         insertWordIntoDB(word, definition, partOfSpeech, phonetics);
       } else {
