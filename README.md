@@ -10,6 +10,8 @@
 
 <br />
 
+*Partea de Front-End și cea de Back-end se găsesc pe cele două branch-uri: Frontend_Setup și Backend_Setup*
+
 ### Introducere și descrierea problemei
 
 Aplicația propusă este o aplicație web bazată pe tehnologiile Node JS și React. Stocarea datelor (Google Cloud Platform) și deploy-ul aplicației (Heroku) se fac în cloud. Aplicația funcționează ca un dicționar în limba engleză, utilizatorul având posibilitatea de a căuta cuvinte pentru a afla definiții, tipul de parte de vorbire și fonetica.
