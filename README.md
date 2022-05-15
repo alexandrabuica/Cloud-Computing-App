@@ -18,7 +18,7 @@ Aplicația are trei secțiuni: o listă cu numele utilizatorilor și cuvintele c
 
 La apăsarea butonului Search apare o alertă prin care utilizatorul este anunțat că dicționarul a returnat cu succes detalii despre cuvânt (definiție, parte de vorbire, fonetica) sau că nu s-a putut returna nicio informație. (după caz)
 
-În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont de platforma SendGrid).
+În cadrul aplicației utilizatorul își poate adăuga numele și e-mailul, întrucât într-o implementare viitoare acesta ar putea primi rezultatul căutării în dicționar pe adresa de mail. (Nu am putut crea un cont pe platforma SendGrid).
 
 ![](https://github.com/alexandrabuica/PROIECT-CC/blob/Frontend_Setup/Capture1.PNG)
 
